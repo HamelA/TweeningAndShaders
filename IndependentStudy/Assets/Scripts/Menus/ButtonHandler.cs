@@ -7,29 +7,15 @@ using UnityEngine.EventSystems;
 public class ButtonHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
 
-    private bool mouseHovering;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    //Hover over menu element
     public void OnPointerEnter(PointerEventData eventData)
     {
-        mouseHovering = true;
         ChangeTextScale(1.5f);
     }
  
+    //Hover away from menu element
     public void OnPointerExit(PointerEventData eventData)
     {
-        mouseHovering = false;
         ChangeTextScale(1f);
     }
 
