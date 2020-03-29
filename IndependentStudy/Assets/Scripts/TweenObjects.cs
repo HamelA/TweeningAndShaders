@@ -18,10 +18,10 @@ public class TweenObjects : MonoBehaviour
 
     private void OnEnable()
     {
-        LeanTween.moveY(objectOne, -5f, 2f).setLoopPingPong().setEase(easeTypeOne);
-        LeanTween.moveY(objectTwo, 3f, 1f).setLoopPingPong().setEase(easeTypeTwo);
-        LeanTween.moveY(objectThree, 2f, 2f).setLoopPingPong().setEase(easeTypeThree);
-        LeanTween.moveY(objectFour, 5f, 4f).setLoopPingPong().setEase(easeTypeFour);
-        LeanTween.moveY(objectFive, -6f, 3f).setLoopPingPong().setEase(curve);
+        LeanTween.moveY(objectOne, 10f, 3f).setLoopPingPong().setEase(easeTypeOne);
+        LeanTween.moveY(objectTwo, 10f, 1f).setLoopPingPong().setEase(easeTypeTwo);
+        LeanTween.moveY(objectThree, 10f, 5f).setLoopPingPong().setEase(easeTypeThree);
+        LeanTween.moveY(objectFour, 10f, 2f).setLoopPingPong().setEase(easeTypeFour);
+        LeanTween.moveY(objectFive, 10f, 4f).setLoopPingPong().setEase(curve);
     }
 }
